@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" min="-2" pref="915" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="752" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="291" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="338" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="346" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jLabel2" pref="243" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="Frame_Nyuryoku2.getResultNewPlaceName()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object [][] {&#xa;        {Frame_Nyuryoku2.getNameTrans(0), Frame_Nyuryoku2.getTimeTrans(0),Frame_Nyuryoku2.getFloatLong(0) , Frame_Nyuryoku2.getFloatLat(0), Frame_Nyuryoku2.getTextTrans(0)},&#xa;        {Frame_Nyuryoku2.getNameTrans(1), Frame_Nyuryoku2.getTimeTrans(1),Frame_Nyuryoku2.getFloatLong(1) , Frame_Nyuryoku2.getFloatLat(1), Frame_Nyuryoku2.getTextTrans(1)},&#xa;        {Frame_Nyuryoku2.getNameTrans(2), Frame_Nyuryoku2.getTimeTrans(2),Frame_Nyuryoku2.getFloatLong(2) , Frame_Nyuryoku2.getFloatLat(2), Frame_Nyuryoku2.getTextTrans(2)},&#xa;        {Frame_Nyuryoku2.getNameTrans(3), Frame_Nyuryoku2.getTimeTrans(3),Frame_Nyuryoku2.getFloatLong(3) , Frame_Nyuryoku2.getFloatLat(3), Frame_Nyuryoku2.getTextTrans(3)},&#xa;        {Frame_Nyuryoku2.getNameTrans(4), Frame_Nyuryoku2.getTimeTrans(4),Frame_Nyuryoku2.getFloatLong(4) , Frame_Nyuryoku2.getFloatLat(4), Frame_Nyuryoku2.getTextTrans(4)},&#xa;        {Frame_Nyuryoku2.getNameTrans(5), Frame_Nyuryoku2.getTimeTrans(5),Frame_Nyuryoku2.getFloatLong(5) , Frame_Nyuryoku2.getFloatLat(5), Frame_Nyuryoku2.getTextTrans(5)},&#xa;        {Frame_Nyuryoku2.getNameTrans(6), Frame_Nyuryoku2.getTimeTrans(6),Frame_Nyuryoku2.getFloatLong(6) , Frame_Nyuryoku2.getFloatLat(6), Frame_Nyuryoku2.getTextTrans(6)},&#xa;        {Frame_Nyuryoku2.getNameTrans(7), Frame_Nyuryoku2.getTimeTrans(7),Frame_Nyuryoku2.getFloatLong(7) , Frame_Nyuryoku2.getFloatLat(7), Frame_Nyuryoku2.getTextTrans(7)},&#xa;        {Frame_Nyuryoku2.getNameTrans(8), Frame_Nyuryoku2.getTimeTrans(8),Frame_Nyuryoku2.getFloatLong(8) , Frame_Nyuryoku2.getFloatLat(8), Frame_Nyuryoku2.getTextTrans(8)},&#xa;        {Frame_Nyuryoku2.getNameTrans(9), Frame_Nyuryoku2.getTimeTrans(9),Frame_Nyuryoku2.getFloatLong(9) , Frame_Nyuryoku2.getFloatLat(9), Frame_Nyuryoku2.getTextTrans(9)},&#xa;        {Frame_Nyuryoku2.getNameTrans(10), Frame_Nyuryoku2.getTimeTrans(10),Frame_Nyuryoku2.getFloatLong(10) , Frame_Nyuryoku2.getFloatLat(10), Frame_Nyuryoku2.getTextTrans(10)},&#xa;        {Frame_Nyuryoku2.getNameTrans(11), Frame_Nyuryoku2.getTimeTrans(11),Frame_Nyuryoku2.getFloatLong(11) , Frame_Nyuryoku2.getFloatLat(11), Frame_Nyuryoku2.getTextTrans(11)},&#xa;        {Frame_Nyuryoku2.getNameTrans(12), Frame_Nyuryoku2.getTimeTrans(12),Frame_Nyuryoku2.getFloatLong(12) , Frame_Nyuryoku2.getFloatLat(12), Frame_Nyuryoku2.getTextTrans(12)},&#xa;        {Frame_Nyuryoku2.getNameTrans(13), Frame_Nyuryoku2.getTimeTrans(13),Frame_Nyuryoku2.getFloatLong(13) , Frame_Nyuryoku2.getFloatLat(13), Frame_Nyuryoku2.getTextTrans(13)},&#xa;        {Frame_Nyuryoku2.getNameTrans(14), Frame_Nyuryoku2.getTimeTrans(14),Frame_Nyuryoku2.getFloatLong(14) , Frame_Nyuryoku2.getFloatLat(14), Frame_Nyuryoku2.getTextTrans(14)},&#xa;        {Frame_Nyuryoku2.getNameTrans(15), Frame_Nyuryoku2.getTimeTrans(15),Frame_Nyuryoku2.getFloatLong(15) , Frame_Nyuryoku2.getFloatLat(15), Frame_Nyuryoku2.getTextTrans(15)},&#xa;        {Frame_Nyuryoku2.getNameTrans(16), Frame_Nyuryoku2.getTimeTrans(16),Frame_Nyuryoku2.getFloatLong(16) , Frame_Nyuryoku2.getFloatLat(16), Frame_Nyuryoku2.getTextTrans(16)},&#xa;        {Frame_Nyuryoku2.getNameTrans(17), Frame_Nyuryoku2.getTimeTrans(17),Frame_Nyuryoku2.getFloatLong(17) , Frame_Nyuryoku2.getFloatLat(17), Frame_Nyuryoku2.getTextTrans(17)},&#xa;        {Frame_Nyuryoku2.getNameTrans(18), Frame_Nyuryoku2.getTimeTrans(18),Frame_Nyuryoku2.getFloatLong(18) , Frame_Nyuryoku2.getFloatLat(18), Frame_Nyuryoku2.getTextTrans(18)},&#xa;        {Frame_Nyuryoku2.getNameTrans(19), Frame_Nyuryoku2.getTimeTrans(19),Frame_Nyuryoku2.getFloatLong(19) , Frame_Nyuryoku2.getFloatLat(19), Frame_Nyuryoku2.getTextTrans(19)}&#xa;    },&#xa;    new String [] {&#xa;        &quot;&#x7528;&#x6237;&#x540d;&quot;, &quot;&#x53d1;&#x5e03;&#x65f6;&#x95f4;&quot;, &quot;&#x7ecf;&#x5ea6;&quot;, &quot;&#x7eac;&#x5ea6;&quot;, &quot;&#x5185;&#x5bb9;&quot;&#xa;    }&#xa;)" type="code"/>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0"/>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;jLabel2&quot;" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="String imgurl = MapDraw.getMapURL();&#xa;URL url = null;&#xa;try{&#xa;    url = new URL(imgurl);&#xa;}catch (MalformedURLException e2) {&#xa;    e2.printStackTrace();&#xa;}&#xa;InputStream is = null;&#xa;try {&#xa;    is = url.openStream();&#xa;} catch (IOException e1) {&#xa;    e1.printStackTrace();&#xa;}&#xa;OutputStream os = null;&#xa;File f = new File(&quot;img3.png&quot;);&#xa;//f.mkdirs();&#xa;try{&#xa;    os = new FileOutputStream(f);&#xa;    int bytesRead = 0;&#xa;    byte[] buffer = new byte[8192];&#xa;    while((bytesRead = is.read(buffer,0,8192))!=-1){&#xa;        os.write(buffer,0,bytesRead);&#xa;    }&#xa;}catch(FileNotFoundException e){&#xa;} catch (IOException e) {&#xa;    e.printStackTrace();&#xa;}&#xa;&#xa;System.out.println(&quot;FINISH&quot;);&#xa;try{&#xa;    ImageIcon icon = new ImageIcon(&quot;img3.png&quot;); &#xa;    jLabel2 = new JLabel(icon);&#xa;}catch (Exception e){&#xa;    System.out.println(&quot;catch&#x4f4f;&quot;);&#xa;    ImageIcon icon = new ImageIcon(&quot;Atlas_Logo_AW.png&quot;);&#xa;    jLabel2 = new JLabel(icon);&#xa;}"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
